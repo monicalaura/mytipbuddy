@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/monicalaura/mytipbuddy/static/css/main.1c19c43c.chunk.css",
-    "main.js": "/monicalaura/mytipbuddy/static/js/main.da1b75c6.chunk.js",
-    "main.js.map": "/monicalaura/mytipbuddy/static/js/main.da1b75c6.chunk.js.map",
-    "runtime-main.js": "/monicalaura/mytipbuddy/static/js/runtime-main.a8d25c2c.js",
-    "runtime-main.js.map": "/monicalaura/mytipbuddy/static/js/runtime-main.a8d25c2c.js.map",
-    "static/js/2.d597634b.chunk.js": "/monicalaura/mytipbuddy/static/js/2.d597634b.chunk.js",
-    "static/js/2.d597634b.chunk.js.map": "/monicalaura/mytipbuddy/static/js/2.d597634b.chunk.js.map",
-    "index.html": "/monicalaura/mytipbuddy/index.html",
-    "precache-manifest.74f48c144b7563cc9091b7600a9f1898.js": "/monicalaura/mytipbuddy/precache-manifest.74f48c144b7563cc9091b7600a9f1898.js",
-    "service-worker.js": "/monicalaura/mytipbuddy/service-worker.js",
-    "static/css/main.1c19c43c.chunk.css.map": "/monicalaura/mytipbuddy/static/css/main.1c19c43c.chunk.css.map",
-    "static/js/2.d597634b.chunk.js.LICENSE.txt": "/monicalaura/mytipbuddy/static/js/2.d597634b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/monicalaura/mytipbuddy/static/media/robot.b85e4755.png"
+    "main.css": "/mytipbuddy/static/css/main.93d35e66.chunk.css",
+    "main.js": "/mytipbuddy/static/js/main.f18cdc5d.chunk.js",
+    "main.js.map": "/mytipbuddy/static/js/main.f18cdc5d.chunk.js.map",
+    "runtime-main.js": "/mytipbuddy/static/js/runtime-main.237f9971.js",
+    "runtime-main.js.map": "/mytipbuddy/static/js/runtime-main.237f9971.js.map",
+    "static/js/2.d597634b.chunk.js": "/mytipbuddy/static/js/2.d597634b.chunk.js",
+    "static/js/2.d597634b.chunk.js.map": "/mytipbuddy/static/js/2.d597634b.chunk.js.map",
+    "index.html": "/mytipbuddy/index.html",
+    "precache-manifest.22143ce5e6ddbd8be2f3da3378d3d9e8.js": "/mytipbuddy/precache-manifest.22143ce5e6ddbd8be2f3da3378d3d9e8.js",
+    "service-worker.js": "/mytipbuddy/service-worker.js",
+    "static/css/main.93d35e66.chunk.css.map": "/mytipbuddy/static/css/main.93d35e66.chunk.css.map",
+    "static/js/2.d597634b.chunk.js.LICENSE.txt": "/mytipbuddy/static/js/2.d597634b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mytipbuddy/static/media/robot.b85e4755.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8d25c2c.js",
+    "static/js/runtime-main.237f9971.js",
     "static/js/2.d597634b.chunk.js",
-    "static/css/main.1c19c43c.chunk.css",
-    "static/js/main.da1b75c6.chunk.js"
+    "static/css/main.93d35e66.chunk.css",
+    "static/js/main.f18cdc5d.chunk.js"
   ]
 }
