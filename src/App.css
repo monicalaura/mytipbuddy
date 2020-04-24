@@ -1,38 +1,172 @@
-.App {
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(
+           to right,
+           rgba(250,252,251,0.9),
+           rgba(250,252,251,0.6)
+       ),
+    url('./img/body-back.jpg') center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+ 
+}
+
+.container{
+  width:100%;
+  position: relative;
+}
+
+header{
+  background: rgba(42,95,184,0.8);
+  color: #fafcfb;
+  padding:1.3rem;
   text-align: center;
+  border-bottom:3px dotted #17dfda;
+
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1{
+  font-size: 2.7rem;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.robot-wrapper {
+  position: relative;
+  width: 100%;
+  max-width:400px;
+  height:85vh;
+  background:url("./img/robot.png") no-repeat;
+  background-position: left;
+  background-size: contain;
+  margin-top:0.2rem;
+  margin-left:20%;
+  
+}
+
+.robotBtn{
+  background: #183f6f;
+  padding:0.7rem 1.4rem;
+  position: absolute;
+  top:51%;
+  left: 25%;
+  border:3px dotted #17dfda;
+  border-radius:10px;
+  cursor:pointer;
+  transition: all 1s ease;
+}
+
+.robotBtn span{
+  color:#282827;
+  font-size:1.5rem;
+  position: relative;
+  font-family: Impact, sans-serif;
+  background: linear-gradient(90deg, #90EE90, #fff, #282827);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 2s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+      }
+      @keyframes animate {
+      0% {
+      background-position: -500%;
+      }
+      100% {
+      background-position: 500%;
+      }
+      }
+
+.robotBtn:hover{
+  background: #061b3d;
+  color: #fafcfb;
+  border-color: #fafcfb;
+  
+}
+.robotBtn:hover span  {
+  color: #fafcfb;
+}
+
+.tip{
+ 
+  max-width:500px;
+  position:absolute;
+  top:30%;
+  left:50%;
+  background: rgba(42,95,184,0.9);
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  border:3px dotted #17dfda;
+  text-align: center; 
+  cursor: pointer;
+ 
+}
+
+.tip h2{
+  padding:1.6rem 2rem;
+  margin:0.8rem;
+  color: #fafcfb;
+
+}
+
+footer{
+  background: rgba(42,95,184,0.8);
+  color: #fafcfb;
+  padding:1.5rem;
+  text-align: center;
+  border-top:3px dotted #17dfda;
+
+}
+
+footer a{
+  text-decoration: none;
+  color:#17dfda; 
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+
+  .robot-wrapper {
+    width: 100%;
+    max-width:250px;
+    height:90vh;
+    background-position: center;
+    background-size: contain;
+    margin:1rem;
+    margin-left:20%;
+    margin-top:5rem;
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .robotBtn{
+   padding:0.4rem 0.7rem;
+   top:50%;
+   left: 26%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .robotBtn span{
+    font-size: 1rem;
   }
+
+  .tip{  
+    width:100%;
+    max-width:350px;
+    top:13%;
+    left:2%;      
+  
+  }
+
+  .tip h2{
+    padding:1.2rem;
+  }
+  
 }
