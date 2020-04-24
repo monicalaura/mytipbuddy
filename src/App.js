@@ -35,7 +35,7 @@ function App() {
         </span>
         </button>
       </div>
-      <footer>&copy; Copyright 2020 <a href ="https://monicalaura.github.io/portfolio" target ="_blank"><em>Monica Laura</em> </a></footer>
+      <footer>&copy; Copyright 2020 <a href ="https://monicalaura.github.io/portfolio" target ="_blank"  rel="noopener noreferrer" ><em>Monica Laura</em> </a></footer>
 
     </div>
   );
